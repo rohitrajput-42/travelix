@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ticket_booked</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Travello template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'styles/bootstrap4/bootstrap.min.css' %}">
+<link href="{% static 'plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.theme.default.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/animate.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'styles/news.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'styles/news_responsive.css' %}">
+</head>
+<body>
+
+<div class="super_container">
+	<div class="news">
+		<div class="container">
+			<div class="row">
+
+				<!-- News Container -->
+				<div class="col-lg-8">
+					<div class="news_container">
+						
+						<!-- News Post -->
+						<div class="news_post">
+							<div class="news_post_image"><img src="{% static 'images/Tick.jpg' %}" alt=""></div>
+							<div class="news_post_content">
+								<div class="news_post_title"><a href="#">To get your token number click below</a></div>
+								<div class="news_post_category">
+									<ul>
+										<div class="button button_3"><a href="#">Click here</a></div>
+									</ul>
+								</div>
+								<div class="news_post_text">
+									<p> You will recieve your token via mail. The token contains al the details reguarding your booking. </p>
+								</div>
+								<!--<div class="news_post_link"><a href="home/hom">Go backTo Home</a></div>-->
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- News Sidebar -->
+				<div class="col-lg-4">
+					<div class="news_sidebar">
+
+						<!-- Categories -->
+						<div class="categories">
+							<div class="sidebar_title"><h1>Congratulations</h1></div>
+							<div class="sidebar_title">Your ticket have been booked</div>
+							</div>
+						</div>
+
+					
+						<div class="latest">
+							<div class="sidebar_title">For further query :</div>
+							<div class="latest_container">
+								
+								<div class="latest_post d-flex flex-row align-items-start justify-content-start">
+									<div class="latest_post_content">
+										<div class="latest_post_date d-flex flex-row align-items-end justify-content-start">
+											<div class="button button_3"><a href="cont/contact">Contact Us</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+<script src="{% static 'styles/bootstrap4/popper.js' %}"></script>
+<script src="{% static 'styles/bootstrap4/bootstrap.min.js' %}"></script>
+<script src="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.js' %}"></script>
+<script src="{% static 'plugins/easing/easing.js' %}"></script>
+<script src="{% static 'plugins/parallax-js-master/parallax.min.js' %}"></script>
+<script src="{% static 'js/news.js' %}"></script>
+</body>
+</html>
